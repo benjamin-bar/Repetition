@@ -16,12 +16,8 @@ srand(time(0));
     for(i = 0; i <= a; i++){
 
 
-x = rand() % 11;
-y = rand() % 11;
-
-x = x/10;
-
-y = y/10;
+x = rand() / (double)RAND_MAX;
+y = rand() / (double)RAND_MAX;
 
 
 c = sqrt(x*x+y*y);
