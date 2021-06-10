@@ -24,6 +24,8 @@ a = a/i;
 }
 if (a > 2){
 printf ("%d ", a);}
+ 
+printf("\n");
 
 return 0;
 }
