@@ -4,24 +4,50 @@
 int main(){
 
 
-int a, b, c;
+int a, b, c, d, e, i;
 
-scanf("%d",&c);
-
-
-for(a = 1; a <= c; a++){
-
-for(b = a; b <= c; b++){
-
-printf(" ");
-}
-
-for(b = 1; b <= ((2*a)-1); ++b){
-
-printf("*");
-}
+scanf("%d %d %d %d %d", &a, &b, &c, &d, &e);
 
 printf("\n");
+for(i = 1; i <= a; ++i){
+
+printf("*");
+
 }
+
+printf("\n\n");
+
+for(i = 1; i <= b; ++i){
+
+printf("*");
+
+}
+
+printf("\n\n");
+
+for(i = 1; i <= c; ++i){
+
+printf("*");
+
+}
+
+printf("\n\n");
+
+for(i = 1; i <= d; ++i){
+
+printf("*");
+
+}
+
+printf("\n\n");
+
+for(i = 1; i <= e; ++i){
+
+printf("*");
+
+}
+
+printf("\n\n");
+
 return 0;
 }
